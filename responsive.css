@@ -1,0 +1,274 @@
+/* header */
+
+header,
+header > div,
+.top-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-grow: 1;
+}
+
+header > div:last-child,
+.top-right {
+  justify-content: flex-end;
+}
+/* untuk pc */
+@media all and (max-width: 1500px) {
+  /* footer  */
+  footer {
+    padding-top: 5vh;
+    width: 100%;
+  }
+
+  .footer-list-layanan {
+    width: 33%;
+    float: left;
+
+  }
+
+  .footer-list-layanan p {
+    font-size: 15px;
+  }
+
+  .footer-list-kontak {
+    width: 33%;
+    float: left;
+
+  }
+  .footer-list-kontak .footer-paragraf {
+    font-size: 15px;
+  }
+
+  .footer-list-alamat {
+    float: left;
+    width: 33%;
+  }
+
+  .footer-list-alamat .footer-paragraf {
+    font-size: 15px;
+  }
+}
+
+/* footer  */
+
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  /* Header */
+  .trigger.menu1 {
+    display: block;
+  }
+
+  .top-right {
+    display: none;
+    background-color: rgb(207, 180, 180);
+    border-top: 1px solid #941414;
+    position: absolute;
+    top: 62px;
+    left: 0px;
+    right: 0px;
+  }
+
+  .top-right > .close {
+    display: block;
+  }
+
+  .top-right > a {
+    text-align: center;
+  }
+
+  /* Main Atas */
+  .carousel .carousel-text h1 {
+    font-size: 70px;
+  }
+
+  .carousel .carousel-tex p {
+    font-size: 25px;
+  }
+
+  /* Main Atas */
+
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+
+  .heading h2 {
+    font-size: 20px;
+  }
+
+  .lesson-icon img {
+    width: 50%;
+  }
+
+  /* Bagian Formnya Gan */
+
+  /* Bagian Formnya Gan */
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  /* Main Atas */
+  .carousel .carousel-text h1 {
+    font-size: 35px;
+    line-height: 32px;
+  }
+
+  .carousel .carousel-text p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .btn {
+    margin-bottom: 10px;
+  }
+
+  .btns {
+    width: 50%;
+  }
+
+  /* Main Atas */
+
+  .lesson {
+    width: 100%;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  .btns.btn-white {
+    background: #fff;
+    border: 1px solid white;
+    color: white;
+  }
+
+  .btns.btn-white:hover {
+    border: 1px solid white;
+    background: white;
+    color: #fff;
+  }
+
+  .btns.btn-white.btn-outline-white {
+    border-color: white;
+    background: none;
+    border-width: 1px;
+    color: white;
+  }
+
+  .btns.btn-white.btn-outline-white:hover,
+  .btns.btn-white.btn-outline-white:focus,
+  .btns.btn-white.btn-outline-white:active {
+    background: #9acd32;
+    border-color: #9acd32;
+    color: white;
+  }
+
+  .facebook {
+    margin-bottom: 10px;
+  }
+
+  .top-wrapper {
+    text-align: left;
+  }
+
+  /* Tambahkan CSS untuk header-right */
+  .header-right {
+    display: none;
+  }
+
+  /* Tambahkan CSS untuk menu-icon */
+  .menu-icon {
+    display: block;
+  }
+
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .lesson-icon img {
+    width: 50%;
+  }
+
+  /*  Bagian Formnya Gan */
+  .promogan h2 {
+    font-size: 32px;
+  }
+
+  .promogan h3 {
+    font-size: 15px;
+  }
+
+  .kets {
+    font-size: 12.5px;
+    margin: auto 20px;
+  }
+
+  .menu {
+    margin: 20px 25px;
+  }
+
+  .choose-menu {
+    font-size: 14px;
+  }
+
+  .menuu {
+    width: 85%;
+  }
+
+  .keterangan {
+    font-size: 15px;
+  }
+
+  .isi {
+    width: 85%;
+  }
+
+  .menu a {
+    width: 50%;
+  }
+  /* Promo Ends Here... */
+
+  /* bagian footer */
+
+  footer {
+		width: 100%;
+  }
+
+
+  .footer-list-layanan {
+    display: block;
+    float: left;
+    width: 100%;
+    font-size: 20px;
+  }
+
+  .footer-list-kontak {
+    display: block;
+    float: left;
+    width: 100%;
+  }
+
+  .footer-list-kontak span {
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+
+  .footer-list-alamat {
+    display: block;
+    float: left;
+    width: 100%;
+  }
+
+  /* END bagian footer */
+}
